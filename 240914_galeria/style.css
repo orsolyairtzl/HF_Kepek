@@ -1,0 +1,61 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    background-color: #dda15e;
+    text-align: center;
+    border-radius: 15px;
+}
+main{
+    background-color: #bc6c25;
+    padding: 2rem;
+    border-radius: 25px;
+    border-color: #dda15e;
+}
+button{
+    background-color: #fefae0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.prev{
+    display: grid;
+    grid-template-columns: 1/1;
+}
+.next{
+    display: grid;
+    grid-template-columns: 1/6;
+}
+.bigpic{
+    background-color: #283618;
+    padding: 10px;
+    border-radius: 15px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.smallpics{
+    background-color: #606c38;
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+.picCard{
+    background-color: #283618;
+    object-fit: contain;
+    gap: 5px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dda15e;
+    padding: 1rem;
+    border-color: #bc6c25;
+    border-radius: 25px;
+}
